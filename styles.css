@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+:root {
+  --light-blue: hsl(212, 98%, 64%);
+  --white: hsl(0, 0%, 100%);
+  --gray: hsl(0, 2%, 26%);
+  --light-gray: rgb(139, 137, 137);
+  --green: hsl(120, 69%, 65%);
+  --shadow: hsla(0, 0%, 0%, .1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  color: hsl(0, 1%, 19%);
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+button {
+  /* display: block; */
+  font: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+/* Styling */
+.underline {
+  width: 13rem;
+  height: .3rem;
+  background: var(--green);
+  border-radius: 50px;
+  margin: 0 auto;
+
+}
+.review {
+  padding: 2rem 5rem;
+  width: 100%;
+  max-width: 375px;
+  box-shadow: 2px 3px 5px var(--shadow);
+  border: 2px solid var(--shadow);
+  border-radius: 4px;
+  margin-top: 4rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container img {
+  width: 10rem;
+  box-shadow: .7rem 0 0 var(--green);
+  border-radius: 50%;
+}
+
+.job {
+  color: var(--light-blue);
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.info {
+  margin-top: 2rem;
+  color: #6b6969;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  margin-block: 2rem;
+  padding: .5rem 1rem;
+  background: transparent;
+}
+
+.fas {
+  color: var(--green);
+}
+
+.random-btn {
+  display: none;
+}
