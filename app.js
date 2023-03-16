@@ -4,32 +4,32 @@ const reviews = [
     name: "alia hamadan",
     job: "web developer",
     img: "./images/avatar-ali.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit'\
-          Quidem vel vero, autem earum repudiandae illo, autem earum repudianda",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit,\
+          adipisci fugiat placeat quae eius eos repellendus temporibus amet assumenda!",
   },
   {
     id: 2,
     name: "anisha parati",
     job: "ux/ui designer",
     img: "./images/avatar-anisha.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit'\
-          Quidem vel vero, autem earum repudiandae illo.autem earum repudianda",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti perspiciatis velit \
+              enim modi provident natus necessitatibus esse consequatur est consectetur!",
   },
   {
     id: 3,
     name: "richard ford",
     job: "frontend developer",
     img: "./images/avatar-richard.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit'\
-          Quidem vel vero, autem earum repudiandae illo.autem earum repudianda",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita esse nihil iusto sequi? \
+                  Id molestias enim, dolore nulla expedita porro!",
   },
   {
     id: 4,
     name: "shanai xue",
     job: "backend developer",
     img: "./images/avatar-shanai.png",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit'\
-          Quidem vel vero, autem earum repudiandae illo.autem earum repudianda",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, est.\
+              Rerum fugiat voluptatem illum ullam exercitationem aspernatur facilis nam ipsam.",
   },
 ];
 
@@ -42,7 +42,6 @@ const info = document.getElementById("info");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
-
 
 // set starting item
 let currentItem = 0;
